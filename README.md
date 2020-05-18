@@ -6,7 +6,7 @@
 		//
 		// How Sortus works ?
 		//     It get two parameters. The main array to sort and the order array.
-		//     Sortus return an ordered array as request.
+		//     Sortus return a new ordered array.
 		// 
 		//     Parameter 1:
 		//     It's an object or array to order.
@@ -65,3 +65,4 @@
     //                        rows in zipCode.
     //    
     // Author: Guillermo Gerardo Ugalde Vergara  2018 - 2020     
+    //
