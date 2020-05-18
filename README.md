@@ -1,7 +1,7 @@
 # sortus
     // SORTUS     V1.0
     //
-    // Sortus is a multiple keys sort. Order by dates, numerically or alphabetically
+    // Sortus is a multiple keys sort js. Order by dates, numerically or alphabetically
 		// Aditionally SortusTotals returns the columns totals that you ask.
 		//
 		// How Sortus works ?
