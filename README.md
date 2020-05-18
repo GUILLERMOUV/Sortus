@@ -5,7 +5,7 @@
 		// Aditionally SortusTotals returns the columns totals that you ask.
 		//
 		// How Sortus works ?
-		//     It get two parameters. The main array to sort and the order array.
+		//     It get two parameters. The main array or object to sort and the order array.
 		//     Sortus return a new ordered array.
 		// 
 		//     Parameter 1:
