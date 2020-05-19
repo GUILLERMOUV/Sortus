@@ -69,8 +69,8 @@ export default {
 				return "SORTUS Parameter 1 not present";
 			}
 			if(!columnasQueSeOrdenaran || columnasQueSeOrdenaran == "") {
-				console.log("SORTUS parameter2 not present");
-				return "SORTUS Parameter 2 not present";
+				console.log("SORTUS parameter2 not present or empty. Default 0");
+				columnasQueSeOrdenaran = ["0"];// le da un valor por default columna 0
 			}
 
 			// LA MATRIZ A ORDENAR LLEGA COMO OBJETO
