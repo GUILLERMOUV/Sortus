@@ -97,7 +97,7 @@ export default {
 			}
 			if(!columnasQueSeTotalizaran || columnasQueSeTotalizaran == "") {
 				console.log("SortusTotals parameter2 not present");
-				return "SortusTotals Parameter 2 not present";
+				columnasQueSeOrdenaran = ["0"];// le da un valor por default columna 0
 			}
 
 			var columnasConTotales = [];
