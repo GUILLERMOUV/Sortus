@@ -2,7 +2,7 @@
     // SORTUS     V1.0
     //
     // Sortus is a multiple keys sort js. Order by dates, numerically or alphabetically
-    // Aditionally SortusTotals returns the columns totals that you ask.
+    // Aditionally SortusTotals returns specific columns totals.
 
     // Use this way;
       var matrizObj =
@@ -76,5 +76,5 @@
 		// (stock*, zipCode)      Return the addition of the stock, also return the number of 
     //                        rows in zipCode.
     //    
-    // Author: Guillermo Gerardo Ugalde Vergara  2018 - 2020     
+    // Author: Guillermo Gerardo Ugalde Vergara  2018 - 2020 www.sortus.info     
     //
