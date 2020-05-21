@@ -2,7 +2,7 @@
     // SORTUS     V1.0
     //
     // Sortus is a multiple keys sort js. Order by dates, numerically or alphabetically
-		// Aditionally SortusTotals returns the columns totals that you ask.
+    // Aditionally SortusTotals returns the columns totals that you ask.
 
     // Use this way;
       var matrizObj =
@@ -33,9 +33,9 @@
 		//      Sintaxis:
 		//      [keyName][+ or -][A (alphabetically) or N (numerically) or D (date)], [nextKey][+ or -]....
 		//
-		//      By default the order is ascending and alphabetically
+		//      By default the order is ascending and alphabetically.
 		//
-		// Some parameter 2 examples;
+		// Parameter2 examples;
 		//
 		// (name, edge, birthday) Order by name, then by edge and then by birthday all them 
 		//                        asc and alphabetically.
@@ -68,7 +68,7 @@
 		//
 		//      By default it will count the rows. If you put the asterisc then it add the amount.
 		//       
-		// Some SortusTotals examples:
+		// SortusTotals parameter2 examples:
 		// 
 		// (name, city, sales)     Return the number of rows in name, also return the number of rows in
 		//                         city, also return the number of rows in sales.
