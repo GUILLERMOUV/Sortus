@@ -3,7 +3,19 @@
     //
     // Sortus is a multiple keys sort js. Order by dates, numerically or alphabetically
 		// Aditionally SortusTotals returns the columns totals that you ask.
-		//
+
+    // Use this way;
+      var matrizObj =
+		[
+           	{"name":"John", "firstName":"Doe"}, 
+           	{"name":"Anna", "firstName":"Smith"},
+           	{"name":"Peter", "firstName":"Jones"}
+           	];
+
+      var ordenObj = ["firstName","name"];
+      
+      var orderedMatrizArr = $sortus(matrizObj,ordenObj);
+
 		// How Sortus works ?
 		//     It get two parameters. The main array or object to sort and the order array.
 		//     Sortus return a new ordered array.
@@ -23,7 +35,7 @@
 		//
 		//      By default the order is ascending and alphabetically
 		//
-		// Some examples;
+		// Some parameter 2 examples;
 		//
 		// (name, edge, birthday) Order by name, then by edge and then by birthday all them 
 		//                        asc and alphabetically.
