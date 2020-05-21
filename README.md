@@ -7,14 +7,14 @@
     // Use this way;
       var matrizObj =
 		[
-           	{"name":"John", "firstName":"Doe"}, 
-           	{"name":"Anna", "firstName":"Smith"},
-           	{"name":"Peter", "firstName":"Jones"}
+           	{"name":"John", "lastName":"Peterson","folio":"25", "birthday":"1990/02/03"}, 
+           	{"name":"Luci", "lastName":"Smith","folio":"32", "birthday":"1988/05/09"},
+           	{"name":"Steve", "lastName":"Jones","folio":"51", "birthday":"2010/09/11"}
            	];
 
-      var ordenObj = ["firstName","name"];
+      var ordenArr = ["lastName","name","folio"];
       
-      var orderedMatrizArr = $sortus(matrizObj,ordenObj);
+      var orderedMatrizArr = $sortus(matrizObj,ordenArr);
 
 		// How Sortus works ?
 		//     It get two parameters. The main array or object to sort and the order array.
